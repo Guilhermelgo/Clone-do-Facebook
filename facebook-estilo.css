@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content{
@@ -140,13 +140,4 @@ h3{
     font-size: 2rem;
     font-weight: 500;
     text-align: center;
-}
-
-@media (max-width: 907px) {
-
-    body{
-
-    height: 120vh;
-}
-
 }
