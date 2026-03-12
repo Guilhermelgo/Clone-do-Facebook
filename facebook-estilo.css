@@ -24,8 +24,10 @@ body{
 .content-info{
 
     width: 350px;
+
     
 }
+
 
 .content-login{
 
@@ -140,3 +142,11 @@ h3{
     text-align: center;
 }
 
+@media (max-width: 907px) {
+
+    body{
+
+    height: 120vh;
+}
+
+}
